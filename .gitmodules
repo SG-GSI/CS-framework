@@ -28,3 +28,15 @@
 [submodule "CSClass/CS_PHELIX/PH_Motion"]
 	path = CSClass/CS_PHELIX/PH_Motion
 	url = https://github.com/SG-GSI/PH_Motion.git
+[submodule "CSClass/CS_PHELIX/PH_PowerUnits"]
+	path = CSClass/CS_PHELIX/PH_PowerUnits
+	url = https://github.com/SG-GSI/PH_PowerUnits.git
+[submodule "CSClass/CS_PHELIX/PH_Vision"]
+	path = CSClass/CS_PHELIX/PH_Vision
+	url = https://github.com/SG-GSI/PH_Vision.git
+[submodule "CSClass/CS_PHELIX/PHELIX"]
+	path = CSClass/CS_PHELIX/PHELIX
+	url = https://github.com/SG-GSI/PHELIX.git
+[submodule "CSClass/CS_PHELIX/PH_Documentation"]
+	path = CSClass/CS_PHELIX/PH_Documentation
+	url = https://github.com/SG-GSI/PH_Documentation.git
