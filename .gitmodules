@@ -7,3 +7,9 @@
 	path = CSClass/CS_Core
 
 	url = https://github.com/DN-GSI/CS_Core.git
+[submodule "CSClass/CS_DigitalIO"]
+	path = CSClass/CS_DigitalIO
+	url = https://github.com/DN-GSI/CS_DigitalIO.git
+[submodule "CSClass/CS_Motion"]
+	path = CSClass/CS_Motion
+	url = https://github.com/DN-GSI/CS_Motion.git
