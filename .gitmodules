@@ -13,3 +13,18 @@
 [submodule "CSClass/CS_Motion"]
 	path = CSClass/CS_Motion
 	url = https://github.com/DN-GSI/CS_Motion.git
+[submodule "CSClass/CS_PHELIX/PH_Basics"]
+	path = CSClass/CS_PHELIX/PH_Basics
+	url = https://github.com/SG-GSI/PH_Basics.git
+[submodule "CSClass/CS_PHELIX/PH_Classes"]
+	path = CSClass/CS_PHELIX/PH_Classes
+	url = https://github.com/SG-GSI/PH_Classes.git
+[submodule "CSClass/CS_PHELIX/PH_Devices"]
+	path = CSClass/CS_PHELIX/PH_Devices
+	url = https://github.com/SG-GSI/PH_Devices.git
+[submodule "CSClass/CS_PHELIX/PH_Information"]
+	path = CSClass/CS_PHELIX/PH_Information
+	url = https://github.com/SG-GSI/PH_Information.git
+[submodule "CSClass/CS_PHELIX/PH_Motion"]
+	path = CSClass/CS_PHELIX/PH_Motion
+	url = https://github.com/SG-GSI/PH_Motion.git
