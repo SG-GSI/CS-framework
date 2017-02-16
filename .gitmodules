@@ -55,3 +55,27 @@
 [submodule "instr.lib/SRDG645"]
 	path = instr.lib/SRDG645
 	url = https://github.com/SG-GSI/SRDG645.git
+[submodule "instr.lib/Beckhoff"]
+	path = instr.lib/Beckhoff
+	url = https://DN-GSI@bitbucket.org/DN-GSI/beckhoff.git
+[submodule "instr.lib/NewFocusPico"]
+	path = instr.lib/NewFocusPico
+	url = https://DN-GSI@bitbucket.org/DN-GSI/newfocuspico.git
+[submodule "instr.lib/BNC555"]
+	path = instr.lib/BNC555
+	url = https://DN-GSI@bitbucket.org/DN-GSI/bnc555.git
+[submodule "instr.lib/OceanOpticsSpectrometer"]
+	path = instr.lib/OceanOpticsSpectrometer
+	url = https://DN-GSI@bitbucket.org/DN-GSI/oceanopticsspectrometer.git
+[submodule "instr.lib/SRDG535"]
+	path = instr.lib/SRDG535
+	url = https://DN-GSI@bitbucket.org/DN-GSI/srdg535.git
+[submodule "instr.lib/Tektronix7000Series"]
+	path = instr.lib/Tektronix7000Series
+	url = https://DN-GSI@bitbucket.org/DN-GSI/tektronix7000series.git
+[submodule "instr.lib/TKDS3032-PHELIX"]
+	path = instr.lib/TKDS3032-PHELIX
+	url = https://DN-GSI@bitbucket.org/DN-GSI/tkds3032-phelix.git
+[submodule "instr.lib/VCLLV-LabVIEW-Hamamatsu"]
+	path = instr.lib/VCLLV-LabVIEW-Hamamatsu
+	url = https://DN-GSI@bitbucket.org/DN-GSI/vcllv-labview-hamamatsu.git
