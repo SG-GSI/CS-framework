@@ -40,3 +40,18 @@
 [submodule "CSClass/CS_PHELIX/PH_Documentation"]
 	path = CSClass/CS_PHELIX/PH_Documentation
 	url = https://github.com/SG-GSI/PH_Documentation.git
+[submodule "instr.lib/AGCxxx"]
+	path = instr.lib/AGCxxx
+	url = https://github.com/SG-GSI/AGCxxx.git
+[submodule "instr.lib/Gentec-M-Link"]
+	path = instr.lib/Gentec-M-Link
+	url = https://github.com/SG-GSI/Gentec-M-Link.git
+[submodule "instr.lib/gentec-SOLO-PE"]
+	path = instr.lib/gentec-SOLO-PE
+	url = https://github.com/SG-GSI/gentec-SOLO-PE.git
+[submodule "instr.lib/Sixpack"]
+	path = instr.lib/Sixpack
+	url = https://github.com/SG-GSI/Sixpack.git
+[submodule "instr.lib/SRDG645"]
+	path = instr.lib/SRDG645
+	url = https://github.com/SG-GSI/SRDG645.git
