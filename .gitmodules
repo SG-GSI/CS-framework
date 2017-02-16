@@ -91,3 +91,6 @@
 [submodule "CSlibraries-extern/psdb_lv"]
 	path = CSlibraries-extern/psdb_lv
 	url = git://gitorious.gsi.de/phelix/psdb_lv.git
+[submodule "CSlibraries-extern/shs"]
+	path = CSlibraries-extern/shs
+	url = git://gitorious.gsi.de/phelix/shs.git
