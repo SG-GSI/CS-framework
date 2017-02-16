@@ -79,3 +79,15 @@
 [submodule "instr.lib/VCLLV-LabVIEW-Hamamatsu"]
 	path = instr.lib/VCLLV-LabVIEW-Hamamatsu
 	url = https://DN-GSI@bitbucket.org/DN-GSI/vcllv-labview-hamamatsu.git
+[submodule "instr.lib/dmdriver"]
+	path = instr.lib/dmdriver
+	url = git://gitorious.gsi.de/phelix/dmdriver.git
+[submodule "instr.lib/pu601k"]
+	path = instr.lib/pu601k
+	url = git://gitorious.gsi.de/phelix/pu601k.git
+[submodule "instr.lib/awg510"]
+	path = instr.lib/awg510
+	url = git://gitorious.gsi.de/phelix/awg510.git
+[submodule "CSlibraries-extern/psdb_lv"]
+	path = CSlibraries-extern/psdb_lv
+	url = git://gitorious.gsi.de/phelix/psdb_lv.git
