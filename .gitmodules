@@ -90,4 +90,4 @@
 	url = git://gitorious.gsi.de/phelix/psdb_lv.git
 [submodule "CSlibraries-extern/shs"]
 	path = CSlibraries-extern/shs
-	url = git://gitorious.gsi.de/phelix/shs.git
+	url = https://DN-GSI@bitbucket.org/DN-GSI/shs.git
