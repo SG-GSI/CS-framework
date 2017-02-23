@@ -822,6 +822,7 @@
 			</Item>
 			<Item Name="lvsound2.dll" Type="Document" URL="/&lt;resource&gt;/lvsound2.dll"/>
 			<Item Name="GradientField.ctl" Type="VI" URL="../CSlibraries-extern/shs/SHS_Playground/GradientField.ctl"/>
+			<Item Name="PSDB_ConvertImageToString.vi" Type="VI" URL="../CSlibraries-extern/psdb_lv/PSDB_ConvertImageToString.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="PCS" Type="EXE">
