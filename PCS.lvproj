@@ -3,17 +3,6 @@
 	<Property Name="CCSymbols" Type="Str">ActualBuild,PCS;</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
-	<Property Name="varPersistentID:{1326DCFA-217A-434B-B7F3-89BA48ACDE23}" Type="Ref">/My Computer/CSMainAndLibs_DontTouch/CSSimulation/SimPowerSupply.lvlib/SimPowerSupply_SVTemplate.lvlib/INSTANCENAME_actVoltage_CHANNEL5</Property>
-	<Property Name="varPersistentID:{3088B57F-EFFB-4C5C-98CE-472ABA99F3F5}" Type="Ref">/My Computer/CSMainAndLibs_DontTouch/CSSimulation/SimPowerSupply.lvlib/SimPowerSupply_SVTemplate.lvlib/INSTANCENAME_actVoltage_CHANNEL1</Property>
-	<Property Name="varPersistentID:{3989B427-31BB-4D24-ADDB-8ACA89AB9E45}" Type="Ref">/My Computer/CSMainAndLibs_DontTouch/CSSimulation/SimPowerSupply.lvlib/SimPowerSupply_SVTemplate.lvlib/INSTANCENAME_eventError</Property>
-	<Property Name="varPersistentID:{3DD8712B-61B0-4BF9-B83A-F4D644DBBCDB}" Type="Ref">/My Computer/CSMainAndLibs_DontTouch/CSSimulation/SimAFG.lvlib/SimAFG_SVTemplate.lvlib/INSTANCENAME_eventError</Property>
-	<Property Name="varPersistentID:{69C84822-4D63-42CA-A88C-3A9F03757E49}" Type="Ref">/My Computer/CSMainAndLibs_DontTouch/CSSimulation/SimPowerSupply.lvlib/SimPowerSupply_SVTemplate.lvlib/INSTANCENAME_actVoltage_CHANNEL7</Property>
-	<Property Name="varPersistentID:{7FA7927F-7A25-4B34-ACC2-1B4B2A1AFC3A}" Type="Ref">/My Computer/CSMainAndLibs_DontTouch/CSSimulation/SimPowerSupply.lvlib/SimPowerSupply_SVTemplate.lvlib/INSTANCENAME_actVoltage_CHANNEL4</Property>
-	<Property Name="varPersistentID:{8DF0B016-56A7-4B61-AAA8-43C04F71180F}" Type="Ref">/My Computer/CSMainAndLibs_DontTouch/CSSimulation/SimPowerSupply.lvlib/SimPowerSupply_SVTemplate.lvlib/INSTANCENAME_actVoltage_CHANNEL3</Property>
-	<Property Name="varPersistentID:{90851C79-75E4-49A3-ACC2-9D966B331189}" Type="Ref">/My Computer/CSMainAndLibs_DontTouch/CSSimulation/SimPowerSupply.lvlib/SimPowerSupply_SVTemplate.lvlib/INSTANCENAME_actVoltage_CHANNEL2</Property>
-	<Property Name="varPersistentID:{BF89E3DC-B8B4-4090-A368-AEEC1F8BB50D}" Type="Ref">/My Computer/CSMainAndLibs_DontTouch/CSSimulation/SimPowerSupply.lvlib/SimPowerSupply_SVTemplate.lvlib/INSTANCENAME_actVoltage</Property>
-	<Property Name="varPersistentID:{CD40F365-23E6-48F4-91E5-4DCB4507D1C0}" Type="Ref">/My Computer/CSMainAndLibs_DontTouch/CSSimulation/SimPowerSupply.lvlib/SimPowerSupply_SVTemplate.lvlib/INSTANCENAME_actVoltage_CHANNEL0</Property>
-	<Property Name="varPersistentID:{CFCC5579-2FBB-4D93-840F-7364A429EC6D}" Type="Ref">/My Computer/CSMainAndLibs_DontTouch/CSSimulation/SimPowerSupply.lvlib/SimPowerSupply_SVTemplate.lvlib/INSTANCENAME_actVoltage_CHANNEL6</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -103,13 +92,6 @@
 				<Item Name="PSChannelBase.lvlib" Type="Library" URL="../CSClass/CS_Core/CSApplicationBaseClasses/PSChannelBase/PSChannelBase.lvlib"/>
 				<Item Name="PSChannelBaseGUI.lvlib" Type="Library" URL="../CSClass/CS_Core/GUIs/GOGUserGUIs/PSChannelBaseGUI/PSChannelBaseGUI.lvlib"/>
 				<Item Name="CSApplicationBaseClasses.contents.vi" Type="VI" URL="../CSClass/CS_Core/CSApplicationBaseClasses/CSApplicationBaseClasses.contents.vi"/>
-			</Item>
-			<Item Name="CSSimulation" Type="Folder">
-				<Item Name="SimMCS.lvlib" Type="Library" URL="../CSClass/CS_Core/CSSimulation/SimMCS/SimMCS.lvlib"/>
-				<Item Name="SimMotor.lvlib" Type="Library" URL="../CSClass/CS_Core/CSSimulation/SimMotor/SimMotor.lvlib"/>
-				<Item Name="SimDigiIO.lvlib" Type="Library" URL="../CSClass/CS_Core/CSSimulation/SimDigiIO/SimDigiIO.lvlib"/>
-				<Item Name="SimAFG.lvlib" Type="Library" URL="../CSClass/CS_Core/CSSimulation/SimAFG/SimAFG.lvlib"/>
-				<Item Name="SimPowerSupply.lvlib" Type="Library" URL="../CSClass/CS_Core/CSSimulation/SimPowerSupply/SimPowerSupply.lvlib"/>
 			</Item>
 			<Item Name="Post-Build Action.vi" Type="VI" URL="../Post-Build Action.vi"/>
 			<Item Name="Pre-Build Action.vi" Type="VI" URL="../Pre-Build Action.vi"/>
@@ -747,15 +729,6 @@
 				<Item Name="DAQmx Write (Counter 1D Frequency 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Counter 1D Frequency 1Chan NSamp).vi"/>
 				<Item Name="DAQmx Write (Counter 1D Ticks 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Counter 1D Ticks 1Chan NSamp).vi"/>
 				<Item Name="DAQmx Write (Counter 1D Time 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Counter 1D Time 1Chan NSamp).vi"/>
-				<Item Name="syslog_severity_codes.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/syslog/_subVIs/TypeDefs/syslog_severity_codes.ctl"/>
-				<Item Name="Syslog Device Send.vi" Type="VI" URL="/&lt;vilib&gt;/NI/syslog/Syslog Device Send.vi"/>
-				<Item Name="syslog_facility_codes.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/syslog/_subVIs/TypeDefs/syslog_facility_codes.ctl"/>
-				<Item Name="syslog_device_functions.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/syslog/_subVIs/TypeDefs/syslog_device_functions.ctl"/>
-				<Item Name="syslog_Timestamp.vi" Type="VI" URL="/&lt;vilib&gt;/NI/syslog/_subVIs/syslog_Timestamp.vi"/>
-				<Item Name="syslog_Hostname.vi" Type="VI" URL="/&lt;vilib&gt;/NI/syslog/_subVIs/syslog_Hostname.vi"/>
-				<Item Name="syslog_Device Function Engine.vi" Type="VI" URL="/&lt;vilib&gt;/NI/syslog/_subVIs/syslog_Device Function Engine.vi"/>
-				<Item Name="util_My IP Address.vi" Type="VI" URL="/&lt;vilib&gt;/NI/syslog/examples/util/util_My IP Address.vi"/>
-				<Item Name="Syslog Device Close.vi" Type="VI" URL="/&lt;vilib&gt;/NI/syslog/Syslog Device Close.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="tm_errorreport.vi" Type="VI" URL="/&lt;userlib&gt;/Hamamatsu Video Capture/tm_errorreport.vi"/>
