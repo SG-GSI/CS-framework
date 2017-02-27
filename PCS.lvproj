@@ -833,7 +833,7 @@
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/CS_PHELIX/PCS.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{33BE3875-C892-486C-915B-245A2C59A597}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2E083177-2AF9-4A0A-8319-3D487D939377}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/CSMainAndLibs_DontTouch/CSMain/CS_Contents_Main.vi</Property>
