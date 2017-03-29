@@ -186,6 +186,7 @@
 				<Item Name="PH_Sequencer_Watch.lvlib" Type="Library" URL="../CSClass/CS_PHELIX/PHELIX/PH_Sequencer_Watch/PH_Sequencer_Watch.lvlib"/>
 				<Item Name="PH_Synchrolock_Watch.lvlib" Type="Library" URL="../CSClass/CS_PHELIX/PHELIX/PH_Synchrolock_Watch/PH_Synchrolock_Watch.lvlib"/>
 				<Item Name="PH_Timing.lvlib" Type="Library" URL="../CSClass/CS_PHELIX/PHELIX/PH_Timing/PH_Timing.lvlib"/>
+				<Item Name="PH_uOPA_DelayController.lvlib" Type="Library" URL="../CSClass/CS_PHELIX/PHELIX/PH_uOPA_DelayController/PH_uOPA_DelayController.lvlib"/>
 				<Item Name="Z6_Beamline.lvlib" Type="Library" URL="../CSClass/CS_PHELIX/PHELIX/Z6_Beamline/Z6_Beamline.lvlib"/>
 				<Item Name="Z6_Beamline_Chief.lvlib" Type="Library" URL="../CSClass/CS_PHELIX/PHELIX/Z6_Beamline_Chief/Z6_Beamline_Chief.lvlib"/>
 				<Item Name="Z6CSMain.lvlib" Type="Library" URL="../CSClass/CS_PHELIX/PHELIX/Z6CSMain/Z6CSMain.lvlib"/>
@@ -194,10 +195,10 @@
 				<Item Name="PH_AxisGUI_6P.lvlib" Type="Library" URL="../CSClass/CS_PHELIX/PH_Motion/PH_AxisGUI_6P/PH_AxisGUI_6P.lvlib"/>
 				<Item Name="PH_AxisGUI_NF.lvlib" Type="Library" URL="../CSClass/CS_PHELIX/PH_Motion/PH_AxisGUI_NF/PH_AxisGUI_NF.lvlib"/>
 				<Item Name="PH_AxisGUI_NF2.lvlib" Type="Library" URL="../CSClass/CS_PHELIX/PH_Motion/PH_AxisGUI_NF2/PH_AxisGUI_NF2.lvlib"/>
-				<Item Name="PH_Waveplate-GUI_6P.lvlib" Type="Library" URL="../CSClass/CS_PHELIX/PH_Motion/PH_Waveplate-GUI_6P/PH_Waveplate-GUI_6P.lvlib"/>
-				<Item Name="PH_4_Pos_Selector.lvlib" Type="Library" URL="../CSClass/CS_PHELIX/PH_Motion/PH_4_Pos_Selector/PH_4_Pos_Selector.lvlib"/>
 				<Item Name="PH_Revolver-GUI_6P.lvlib" Type="Library" URL="../CSClass/CS_PHELIX/PH_Motion/PH_Revolver-GUI_6P/PH_Revolver-GUI_6P.lvlib"/>
 				<Item Name="PH_Sixpack_Switch.lvlib" Type="Library" URL="../CSClass/CS_PHELIX/PH_Motion/PH_Sixpack_Switch/PH_Sixpack_Switch.lvlib"/>
+				<Item Name="PH_Waveplate-GUI_6P.lvlib" Type="Library" URL="../CSClass/CS_PHELIX/PH_Motion/PH_Waveplate-GUI_6P/PH_Waveplate-GUI_6P.lvlib"/>
+				<Item Name="PH_4_Pos_Selector.lvlib" Type="Library" URL="../CSClass/CS_PHELIX/PH_Motion/PH_4_Pos_Selector/PH_4_Pos_Selector.lvlib"/>
 			</Item>
 			<Item Name="PH_Vision" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">0</Property>
@@ -221,6 +222,9 @@
 				<Item Name="PH_GetCamInformation.lvlib" Type="Library" URL="../CSClass/CS_PHELIX/PH_Information/PH_GetCamInformation/PH_GetCamInformation.lvlib"/>
 				<Item Name="PH_GetPowermeterInformation.lvlib" Type="Library" URL="../CSClass/CS_PHELIX/PH_Information/PH_GetPowermeterInformation/PH_GetPowermeterInformation.lvlib"/>
 				<Item Name="PH_GetSwitchInformation.lvlib" Type="Library" URL="../CSClass/CS_PHELIX/PH_Information/PH_GetSwitchInformation/PH_GetSwitchInformation.lvlib"/>
+			</Item>
+			<Item Name="Playground" Type="Folder">
+				<Item Name="Prep PCS.vi" Type="VI" URL="/Q/Eigene Dateien/LabVIEW/uOPA von Bernhard/Prep PCS.vi"/>
 			</Item>
 			<Item Name="PCS.ico" Type="Document" URL="../PCS.ico"/>
 			<Item Name="PCS_Contents.vi" Type="VI" URL="../PCS_Contents.vi"/>
@@ -796,6 +800,8 @@
 			<Item Name="lvsound2.dll" Type="Document" URL="/&lt;resource&gt;/lvsound2.dll"/>
 			<Item Name="GradientField.ctl" Type="VI" URL="../CSlibraries-extern/shs/SHS_Playground/GradientField.ctl"/>
 			<Item Name="PSDB_ConvertImageToString.vi" Type="VI" URL="../CSlibraries-extern/psdb_lv/PSDB_ConvertImageToString.vi"/>
+			<Item Name="average_array.vi" Type="VI" URL="/Q/Eigene Dateien/LabVIEW/uOPA von Bernhard/average_array.vi"/>
+			<Item Name="Hops.vi" Type="VI" URL="/Q/Eigene Dateien/LabVIEW/uOPA von Bernhard/Hops.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="PCS" Type="EXE">
@@ -816,7 +822,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{53A1D55D-5A5A-428C-839C-47DD9AD30663}</Property>
 				<Property Name="Bld_supportedLanguage[0]" Type="Str">English</Property>
 				<Property Name="Bld_supportedLanguageCount" Type="Int">1</Property>
-				<Property Name="Bld_version.build" Type="Int">172</Property>
+				<Property Name="Bld_version.build" Type="Int">175</Property>
 				<Property Name="Bld_version.major" Type="Int">3</Property>
 				<Property Name="Bld_version.minor" Type="Int">40</Property>
 				<Property Name="Destination[0].destName" Type="Str">PCS.exe</Property>
@@ -833,7 +839,7 @@
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/CS_PHELIX/PCS.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{2E083177-2AF9-4A0A-8319-3D487D939377}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{9FB1E7A1-7EED-4B63-82FD-202EE4BA2038}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/CSMainAndLibs_DontTouch/CSMain/CS_Contents_Main.vi</Property>
