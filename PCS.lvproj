@@ -822,7 +822,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{53A1D55D-5A5A-428C-839C-47DD9AD30663}</Property>
 				<Property Name="Bld_supportedLanguage[0]" Type="Str">English</Property>
 				<Property Name="Bld_supportedLanguageCount" Type="Int">1</Property>
-				<Property Name="Bld_version.build" Type="Int">175</Property>
+				<Property Name="Bld_version.build" Type="Int">176</Property>
 				<Property Name="Bld_version.major" Type="Int">3</Property>
 				<Property Name="Bld_version.minor" Type="Int">40</Property>
 				<Property Name="Destination[0].destName" Type="Str">PCS.exe</Property>
@@ -839,7 +839,7 @@
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/CS_PHELIX/PCS.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{9FB1E7A1-7EED-4B63-82FD-202EE4BA2038}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{8C77266F-27FF-4B21-8706-716DCF4EE002}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/CSMainAndLibs_DontTouch/CSMain/CS_Contents_Main.vi</Property>
