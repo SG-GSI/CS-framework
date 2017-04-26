@@ -154,6 +154,7 @@
 				<Item Name="PH_Cont-601k_PSU.lvlib" Type="Library" URL="../CSClass/CS_PHELIX/PH_Devices/PH_Cont-601k_PSU/PH_Cont-601k_PSU.lvlib"/>
 				<Item Name="PH_DeformableMirror.lvlib" Type="Library" URL="../CSClass/CS_PHELIX/PH_Devices/PH_DeformableMirror/PH_DeformableMirror.lvlib"/>
 				<Item Name="PH_gentec_M-Link.lvlib" Type="Library" URL="../CSClass/CS_PHELIX/PH_Devices/PH_gentec_M-Link/PH_gentec_M-Link.lvlib"/>
+				<Item Name="PH_gentec_P-Link.lvlib" Type="Library" URL="../CSClass/CS_PHELIX/PH_Devices/PH_gentec_P-Link/PH_gentec_P-Link.lvlib"/>
 				<Item Name="PH_gentec_Powermeter.lvlib" Type="Library" URL="../CSClass/CS_PHELIX/PH_Devices/PH_gentec_Powermeter/PH_gentec_Powermeter.lvlib"/>
 				<Item Name="PH_HamamatsuCamera.lvlib" Type="Library" URL="../CSClass/CS_PHELIX/PH_Devices/PH_HamamatsuCamera/PH_HamamatsuCamera.lvlib"/>
 				<Item Name="PH_IEEE1394Camera.lvlib" Type="Library" URL="../CSClass/CS_PHELIX/PH_Devices/PH_IEEE1394Camera/PH_IEEE1394Camera.lvlib"/>
@@ -236,6 +237,7 @@
 			<Item Name="BNC555 - Driver np.lvlib" Type="Library" URL="../instr.lib/BNC555/BNC555 - Driver np.lvlib"/>
 			<Item Name="Continuum PU610K.lvlib" Type="Library" URL="../instr.lib/pu601k/Continuum PU610K.lvlib"/>
 			<Item Name="gentec-M-Link - Driver.lvlib" Type="Library" URL="../instr.lib/Gentec-M-Link/gentec-M-Link - Driver.lvlib"/>
+			<Item Name="gentec-P-Link - Driver.lvlib" Type="Library" URL="../instr.lib/Gentec-P-Link/gentec-P-Link - Driver.lvlib"/>
 			<Item Name="gentec-SOLO-PE - Driver.lvlib" Type="Library" URL="../instr.lib/gentec-SOLO-PE/gentec-SOLO-PE - Driver.lvlib"/>
 			<Item Name="NewFocusPico - Driver np.lvlib" Type="Library" URL="../instr.lib/NewFocusPico/NewFocusPico - Driver np.lvlib"/>
 			<Item Name="Ocean Optics 2000 4000 - Driver np.lvlib" Type="Library" URL="../instr.lib/OceanOpticsSpectrometer/Ocean Optics 2000 4000 - Driver np.lvlib"/>

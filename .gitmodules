@@ -91,3 +91,6 @@
 [submodule "CSlibraries-extern/shs"]
 	path = CSlibraries-extern/shs
 	url = https://DN-GSI@bitbucket.org/DN-GSI/shs.git
+[submodule "instr.lib/Gentec-P-Link"]
+	path = instr.lib/Gentec-P-Link
+	url = https://github.com/DN-GSI/Gentec-P-Link.git
